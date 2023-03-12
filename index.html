@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" href="index.css"/>
+    <title>Expenses</title>
+  </head>
+  <body>
+    <div id="container">
+        <div id="menu">
+            <div id="menu-wrap">
+                <h2>Menu</h2>
+                <ul>
+                    <li>Global</li>
+                    <li>
+                        Years
+                        <ul>
+                            <li>2023</li>
+                            <li>2022</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="dashboard">
+            <div id="dashboard-wrap">
+                <div id="categories">
+                    
+                </div>
+                <div id="year-summary">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="renderer.js"></script>
+  </body>
+</html>
